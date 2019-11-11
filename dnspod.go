@@ -12,13 +12,6 @@ const (
 	DnspodAPIcom = "https://api.dnspod.com/"
 )
 
-// var (
-// 	// DnspodURL dnspod api url
-// 	DnspodURL:=map[string]string{
-// 		"cn":"https://dnsapi.cn/",
-// 	"us":"https://api.dnspod.com/",
-// }
-
 // Client Config for dnspod
 type Client struct {
 	// LoginToken API token, https://support.dnspod.cn/Kb/showarticle/tsid/227/
